@@ -262,58 +262,490 @@
 
 
 
-    <!-- =====================================================
-         WELCOME SECTION
-         ===================================================== -->
+    <!-- Main Content -->
+    <main>
 
-    <section class="feature-section">
-
-        <div class="container">
-
-           
+        <div class="container page-layout">
 
 
-            <div class="content-card">
-            <div class="section-heading">
 
-                <h2>BORROW APPLICATION FORM</h2>
+            <!-- Application Content -->
+            <section class="content-card">
 
-            </div>
-                <p>
-                <Img src="O.png" width="900" height="300" class="homenew">
-                    ........
-                </p>
+                <h2>
+                    Library Book Borrowing Form
+                </h2>
 
                 <p>
-                    ......
+                    Please provide the required information below. Make sure
+                    all information entered is correct before submitting
+                    your application.
                 </p>
-                <a href="borrowpolicy.html" class="btn">
-                SUBMIT
-                </a>
 
-            </div>
+
+                <div class="info-box">
+
+                    <strong>Application Instructions</strong>
+
+                    <p>
+                        Complete all required fields. The information provided
+                        should correspond with your university records.
+                    </p>
+
+                </div>
+
+
+                <!-- Borrowing Form -->
+                <form action="#" method="post">
+
+
+                    <!-- Student Information -->
+                    <h3>
+                        Student Information
+                    </h3>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="first-name">
+                                First Name *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="first-name"
+                                name="first_name"
+                                class="form-control"
+                                placeholder="Enter your first name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="last-name">
+                                Last Name *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="last-name"
+                                name="last_name"
+                                class="form-control"
+                                placeholder="Enter your last name"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="matric-number">
+                                Matriculation Number *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="matric-number"
+                                name="matric_number"
+                                class="form-control"
+                                placeholder="Enter matriculation number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="level">
+                                Level *
+                            </label>
+
+                            <select
+                                id="level"
+                                name="level"
+                                class="form-control"
+                                required
+                            >
+
+                                <option value="">
+                                    Select your level
+                                </option>
+
+                                <option value="100">
+                                    100 Level
+                                </option>
+
+                                <option value="200">
+                                    200 Level
+                                </option>
+
+                                <option value="300">
+                                    300 Level
+                                </option>
+
+                                <option value="400">
+                                    400 Level
+                                </option>
+
+                                <option value="500">
+                                    500 Level
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="faculty">
+                                Faculty *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="faculty"
+                                name="faculty"
+                                class="form-control"
+                                placeholder="Enter your faculty"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="department">
+                                Department *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="department"
+                                name="department"
+                                class="form-control"
+                                placeholder="Enter your department"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number *
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                class="form-control"
+                                placeholder="Enter phone number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address *
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Enter email address"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Book Information -->
+                    <h3>
+                        Book Information
+                    </h3>
+
+
+                    <div class="form-group">
+
+                        <label for="book-title">
+                            Book Title *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="book-title"
+                            name="book_title"
+                            class="form-control"
+                            placeholder="Enter the title of the book"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="author">
+                                Author
+                            </label>
+
+                            <input
+                                type="text"
+                                id="author"
+                                name="author"
+                                class="form-control"
+                                placeholder="Enter author's name"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="isbn">
+                                ISBN / Book ID
+                            </label>
+
+                            <input
+                                type="text"
+                                id="isbn"
+                                name="isbn"
+                                class="form-control"
+                                placeholder="Enter ISBN or book ID"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="category">
+                                Book Category *
+                            </label>
+
+                            <select
+                                id="category"
+                                name="category"
+                                class="form-control"
+                                required
+                            >
+
+                                <option value="">
+                                    Select category
+                                </option>
+
+                                <option value="computing">
+                                    Computing
+                                </option>
+
+                                <option value="engineering">
+                                    Engineering
+                                </option>
+
+                                <option value="science">
+                                    Science
+                                </option>
+
+                                <option value="environmental">
+                                    Environmental Studies
+                                </option>
+
+                                <option value="management">
+                                    Management
+                                </option>
+
+                                <option value="education">
+                                    Education
+                                </option>
+
+                                <option value="agriculture">
+                                    Agriculture
+                                </option>
+
+                                <option value="law">
+                                    Law
+                                </option>
+
+                                <option value="medical">
+                                    Medical
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="date-needed">
+                                Date Needed *
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date-needed"
+                                name="date_needed"
+                                class="form-control"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Purpose -->
+                    <div class="form-group">
+
+                        <label for="purpose">
+                            Purpose of Borrowing *
+                        </label>
+
+                        <textarea
+                            id="purpose"
+                            name="purpose"
+                            class="form-control"
+                            rows="5"
+                            placeholder="Briefly state why you need the book"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Additional Information -->
+                    <div class="form-group">
+
+                        <label for="additional-info">
+                            Additional Information
+                        </label>
+
+                        <textarea
+                            id="additional-info"
+                            name="additional_information"
+                            class="form-control"
+                            rows="4"
+                            placeholder="Enter any additional information if necessary"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Declaration -->
+                    <h3>
+                        Student Declaration
+                    </h3>
+
+
+                    <div class="checkbox-group">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="declaration"
+                                value="accepted"
+                                required
+                            >
+
+                            I confirm that the information provided in this
+                            application is correct and I agree to comply with
+                            the CUSTECH University Library borrowing rules.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                    <div class="form-submit">
+
+                        <button
+                            type="submit"
+                            class="btn"
+                        >
+                            Submit Borrowing Application
+                        </button>
+
+                        <a
+                            href="borrow.html"
+                            class="btn"
+                        >
+                            Back to Borrowing Policy
+                        </a>
+
+                    </div>
+
+
+                </form>
+
+            </section>
 
         </div>
 
-    </section>
+    </main>
 
 
-
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
-
-    <footer>
+    <!-- Footer -->
+      <footer>
 
         <div class="footer-main">
 
             <div class="container footer-grid">
 
+
                 <!-- ABOUT -->
                 <div class="footer-column">
 
-                    <h3>CUSTECH University Library</h3>
+                    <h3>
+                        CUSTECH University Library
+                    </h3>
 
                     <p>
                         Confluence University of Science and
@@ -333,19 +765,26 @@
                 </div>
 
 
+
                 <!-- QUICK LINKS -->
                 <div class="footer-column">
 
-                    <h3>Quick Links</h3>
+                    <h3>
+                        Quick Links
+                    </h3>
 
                     <ul>
 
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.html">
+                                Home
+                            </a>
                         </li>
 
                         <li>
-                            <a href="about.html">About Library</a>
+                            <a href="about.html">
+                                About Library
+                            </a>
                         </li>
 
                         <li>
@@ -371,15 +810,18 @@
                 </div>
 
 
+
                 <!-- LIBRARY SERVICES -->
                 <div class="footer-column">
 
-                    <h3>Library Services</h3>
+                    <h3>
+                        Library Services
+                    </h3>
 
                     <ul>
 
                         <li>
-                            <a href="borrow-request.html">
+                            <a href="borrow.html">
                                 Borrowing
                             </a>
                         </li>
@@ -397,8 +839,8 @@
                         </li>
 
                         <li>
-                            <a href="careers.html">
-                                Careers
+                            <a href="staff.html">
+                                Staff Directory
                             </a>
                         </li>
 
@@ -411,6 +853,7 @@
                     </ul>
 
                 </div>
+
 
             </div>
 
@@ -426,6 +869,5 @@
         </div>
 
     </footer>
-
 </body>
 </html>

@@ -3,25 +3,17 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Makes the website responsive on phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="CUSTECH University Library Portal">
+          content="About CUSTECH University Library">
 
-    <title>CUSTECH University Library Portal</title>
+    <title>About the Library | CUSTECH University Library</title>
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <!-- =====================================================
-         TOP HEADER
-         Contains university information and quick links
-         ===================================================== -->
-
 
     <!-- =====================================================
          MAIN HEADER
@@ -34,14 +26,19 @@
             <!-- Logo and university name -->
             <div class="logo-area">
 
-                <!-- Replace this placeholder with official logo later -->
                 <div class="logo-placeholder">
-                    <Img src="logo.png" width="200" height="70">
+                    <img src="logo.png" width="200" height="70" alt="CUSTECH Logo">
                 </div>
 
                 <div class="university-name">
                     <h1><b>CUSTECH University Library</b></h1>
-                    <p><b>Confluence University of Science and Technology, Osara Kogi State</b></p>
+
+                    <p>
+                        <b>
+                            Confluence University of Science and Technology,
+                            Osara Kogi State
+                        </b>
+                    </p>
                 </div>
 
             </div>
@@ -51,7 +48,6 @@
 
         <!-- =================================================
              NAVIGATION BAR
-             CSS-only dropdown menu
              ================================================= -->
 
         <nav class="main-nav">
@@ -60,18 +56,22 @@
 
                 <ul class="nav-list">
 
-                    <li class="active">
+                    <!-- HOME -->
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
 
+
                     <!-- ABOUT -->
-                    <li>
+                    <li class="active">
                         <a href="#">About ▾</a>
 
                         <ul class="dropdown">
 
                             <li>
-                                <a href="about.html">About the Library</a>
+                                <a href="about.html">
+                                    About the Library
+                                </a>
                             </li>
 
                             <li>
@@ -81,11 +81,15 @@
                             </li>
 
                             <li>
-                                <a href="rules.html">Library Rules</a>
+                                <a href="rules.html">
+                                    Library Rules
+                                </a>
                             </li>
 
                             <li>
-                                <a href="hours.html">Opening Hours</a>
+                                <a href="hours.html">
+                                    Opening Hours
+                                </a>
                             </li>
 
                         </ul>
@@ -103,11 +107,13 @@
                                     Borrow
                                 </a>
                             </li>
+
                             <li>
                                 <a href="Renew.html">
                                     Renew Borrow
                                 </a>
                             </li>
+
                         </ul>
                     </li>
 
@@ -117,7 +123,7 @@
                         <a href="#">Past Questions ▾</a>
 
                         <ul class="dropdown">
-            
+
                             <li>
                                 <a href="past-questions.html">
                                     Repository Hub
@@ -140,16 +146,18 @@
                     </li>
 
 
-                    <!-- FACULTY CATALOG -->
+                    <!-- E-LIBRARY -->
                     <li>
                         <a href="#">E-Library ▾</a>
 
                         <ul class="dropdown">
+
                             <li>
                                 <a href="e-library-hub.html">
                                     E-Library
                                 </a>
                             </li>
+
                             <li>
                                 <a href="computing-books.html">
                                     Computing & Informatics
@@ -207,6 +215,7 @@
                         </ul>
                     </li>
 
+
                     <!-- SERVICES -->
                     <li>
                         <a href="#">Services ▾</a>
@@ -215,7 +224,7 @@
 
                             <li>
                                 <a href="book-request.html">
-                                    Request a Book Unavialiable
+                                    Request a Book Unavailable
                                 </a>
                             </li>
 
@@ -263,39 +272,464 @@
 
 
     <!-- =====================================================
-         WELCOME SECTION
+         MAIN PAGE CONTENT
          ===================================================== -->
 
-    <section class="feature-section">
+    <main>
 
         <div class="container">
 
-           
+            <div class="page-layout">
 
 
-            <div class="content-card">
-            <div class="section-heading">
 
-                <h2>ABOUT US</h2>
 
-            </div>
-                <p>
-                <Img src="O.png" width="900" height="300" class="homenew">
-                    ........
-                </p>
+                <!-- =================================================
+                     MAIN CONTENT
+                     ================================================= -->
 
-                <p>
-                    ......
-                </p>
+                <section>
 
+
+                    <!-- INTRODUCTION -->
+                    <div class="content-card">
+
+                        <h2>About CUSTECH University Library</h2>
+
+                        <p>
+                            The CUSTECH University Library is an important
+                            academic resource centre of the Confluence
+                            University of Science and Technology. It is
+                            established to support the teaching, learning
+                            and research activities of students, lecturers,
+                            researchers and other members of the university
+                            community.
+                        </p>
+
+                        <p>
+                            The library provides access to books, academic
+                            publications, reference materials, past
+                            examination questions and electronic learning
+                            resources. It also provides a suitable environment
+                            where students can read, study, carry out research
+                            and improve their academic knowledge.
+                        </p>
+
+                        <p>
+                            Through the library portal, users can obtain
+                            important information about library services,
+                            available resources, borrowing procedures,
+                            opening hours, rules and other academic
+                            resources provided by the library.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         MAIN LIBRARY IMAGE
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Our Library</h2>
+
+                          <!-- IMAGE SPACE -->
+                        <div style="
+                            width: 100%;
+                            min-height: 300px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 25px;
+                        ">
+
+
+                            <img src="1.jpg"
+                                 alt="CUSTECH University Library"
+                                 style="width:100%; height:auto;">
+
+
+                        </div>
+
+                        <p>
+                            The CUSTECH University Library provides a
+                            supportive environment for students and staff
+                            to access information and develop their academic
+                            and research skills. The library serves as a
+                            central point for accessing useful learning
+                            materials and information resources.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         HISTORY
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>History of CUSTECH</h2>
+
+                        <p>
+                            Confluence University of Science and Technology
+                            (CUSTECH), Osara, Kogi State, was established
+                            to provide quality education with strong
+                            emphasis on science, technology, innovation
+                            and practical learning.
+                        </p>
+
+                        <p>
+                            The establishment of the university was approved
+                            by the Kogi State Government in 2020. The
+                            university was created to contribute to the
+                            development of skilled graduates who can apply
+                            knowledge, technology and innovation to solve
+                            real-world problems.
+                        </p>
+
+                        <p>
+                            As part of the university's academic environment,
+                            the University Library plays an important role
+                            in supporting the educational objectives of the
+                            institution by providing information resources
+                            for teaching, learning and research.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         LIBRARY ENVIRONMENT IMAGE
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Learning and Research Environment</h2>
+
+                        <!-- IMAGE SPACE -->
+                          <!-- IMAGE SPACE -->
+                        <div style="
+                            width: 100%;
+                            min-height: 300px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 25px;
+                        ">
+
+
+                            <img src="2.jpg"
+                                 alt="CUSTECH University Library"
+                                 style="width:100%; height:auto;">
+
+
+                        </div>
+
+                        </div>
+
+                        <p>
+                            A good library environment helps students
+                            concentrate on their academic activities.
+                            The CUSTECH University Library provides spaces
+                            where users can read, study and consult
+                            academic materials.
+                        </p>
+
+                        <p>
+                            Students can make use of the available resources
+                            to prepare for examinations, complete academic
+                            assignments and carry out research related to
+                            their courses of study.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         VISION
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Vision of the Library</h2>
+
+                        <p>
+                            To provide a modern and supportive academic
+                            library environment that promotes effective
+                            learning, teaching, research, innovation and
+                            access to reliable information resources.
+                        </p>
+
+                        <p>
+                            The library seeks to contribute to the academic
+                            development of CUSTECH by making relevant
+                            information resources and services accessible
+                            to members of the university community.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         MISSION
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Mission of the Library</h2>
+
+                        <p>
+                            The mission of the CUSTECH University Library
+                            is to provide relevant and accessible information
+                            resources and services that support teaching,
+                            learning and research within the university.
+                        </p>
+
+                        <p>
+                            The library also encourages effective use of
+                            information resources, independent learning,
+                            research activities and responsible use of
+                            academic information.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         OBJECTIVES
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Objectives of the Library</h2>
+
+                        <p>
+                            The major objectives of the CUSTECH University
+                            Library include:
+                        </p>
+
+                        <ul class="content-list">
+
+                            <li>
+                                To provide relevant books and information
+                                resources to students and staff.
+                            </li>
+
+                            <li>
+                                To support teaching, learning and research
+                                activities within the university.
+                            </li>
+
+                            <li>
+                                To provide access to electronic and digital
+                                information resources.
+                            </li>
+
+                            <li>
+                                To encourage students to develop effective
+                                reading and information-searching skills.
+                            </li>
+
+                            <li>
+                                To provide a suitable environment for
+                                individual study and academic activities.
+                            </li>
+
+                            <li>
+                                To support students and researchers in
+                                locating useful academic information.
+                            </li>
+
+                            <li>
+                                To preserve and organize academic and
+                                institutional information resources.
+                            </li>
+
+                            <li>
+                                To promote responsible and effective use
+                                of library resources.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         LIBRARY SERVICES
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Major Library Services</h2>
+
+                        <p>
+                            The library provides different services and
+                            resources designed to meet the academic needs
+                            of members of the university community.
+                        </p>
+
+
+                        <div class="card-grid">
+
+
+                            <!-- BOOK SERVICES -->
+                            <div class="feature-card">
+
+                                <div class="feature-icon">
+                                    BK
+                                </div>
+
+                                <h3>Book Services</h3>
+
+                                <p>
+                                    Access books and other learning materials
+                                    that support different academic
+                                    programmes and courses.
+                                </p>
+
+                                <a href="computing-books.html" class="btn">
+                                    View Books
+                                </a>
+
+                            </div>
+
+
+                            <!-- E-LIBRARY -->
+                            <div class="feature-card">
+
+                                <div class="feature-icon">
+                                    EL
+                                </div>
+
+                                <h3>E-Library</h3>
+
+                                <p>
+                                    Explore electronic learning materials
+                                    and digital academic resources available
+                                    through the library portal.
+                                </p>
+
+                                <a href="e-library-hub.html" class="btn">
+                                    Visit E-Library
+                                </a>
+
+                            </div>
+
+
+                            <!-- PAST QUESTIONS -->
+                            <div class="feature-card">
+
+                                <div class="feature-icon">
+                                    PQ
+                                </div>
+
+                                <h3>Past Questions</h3>
+
+                                <p>
+                                    Access past examination and continuous
+                                    assessment questions to support academic
+                                    preparation.
+                                </p>
+
+                                <a href="past-questions.html" class="btn">
+                                    View Questions
+                                </a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         SUPPORTING ACADEMIC ACTIVITIES
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Supporting Teaching, Learning and Research</h2>
+
+                        <p>
+                            The University Library is an essential part of
+                            the academic community. It supports students
+                            by providing access to information needed for
+                            coursework, assignments, examinations and
+                            personal academic development.
+                        </p>
+
+                        <p>
+                            Lecturers and researchers can also make use of
+                            library resources when preparing teaching
+                            materials, conducting research and locating
+                            relevant academic information.
+                        </p>
+
+                        <div class="info-box">
+
+                            <strong>
+                                Make Effective Use of the Library
+                            </strong>
+
+                            <p>
+                                Students are encouraged to make regular use
+                                of library resources, maintain a good study
+                                habit and observe all library rules and
+                                regulations while using the facilities.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         QUICK LINKS
+                         ================================================= -->
+
+                    <div class="content-card">
+
+                        <h2>Explore the Library</h2>
+
+                        <p>
+                            Use the links below to learn more about the
+                            library and its services.
+                        </p>
+
+                        <p>
+
+                            <a href="librarian.html" class="btn">
+                                University Librarian
+                            </a>
+
+                            &nbsp;
+
+                            <a href="rules.html" class="btn">
+                                Library Rules
+                            </a>
+
+                            &nbsp;
+
+                            <a href="hours.html" class="btn">
+                                Opening Hours
+                            </a>
+
+                        </p>
+
+                    </div>
+
+
+                </section>
 
             </div>
 
         </div>
 
-    </section>
-
-
+    </main>
 
 
     <!-- =====================================================
@@ -307,6 +741,7 @@
         <div class="footer-main">
 
             <div class="container footer-grid">
+
 
                 <!-- ABOUT -->
                 <div class="footer-column">
@@ -339,11 +774,15 @@
                     <ul>
 
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.html">
+                                Home
+                            </a>
                         </li>
 
                         <li>
-                            <a href="about.html">About Library</a>
+                            <a href="about.html">
+                                About Library
+                            </a>
                         </li>
 
                         <li>
@@ -377,7 +816,7 @@
                     <ul>
 
                         <li>
-                            <a href="borrow-request.html">
+                            <a href="borrow.html">
                                 Borrowing
                             </a>
                         </li>
@@ -395,11 +834,10 @@
                         </li>
 
                         <li>
-                            <a href="careers.html">
-                                Careers
+                            <a href="staff.html">
+                                Staff Directory
                             </a>
                         </li>
-
 
                         <li>
                             <a href="faqs.html">
@@ -410,6 +848,7 @@
                     </ul>
 
                 </div>
+
 
             </div>
 
@@ -425,6 +864,7 @@
         </div>
 
     </footer>
+
 
 </body>
 </html>

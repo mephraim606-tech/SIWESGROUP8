@@ -261,156 +261,651 @@
     </header>
 
 
-
-    <!-- =====================================================
-         WELCOME SECTION
-         ===================================================== -->
-
-    <section class="feature-section">
+    <!-- Page Banner -->
+    <section class="page-banner">
 
         <div class="container">
 
-           
+            <h2>
+                Book Renewal Request
+            </h2>
 
-
-            <div class="content-card">
-            <div class="section-heading">
-
-                <h2>RENEW-BORROW APPLICATION FORM</h2>
-
-            </div>
-                <p>
-                <Img src="O.png" width="900" height="300" class="homenew">
-                    ........
-                </p>
-
-                <p>
-                    ......
-                </p>
-                <a href="renew.html" class="btn">
-                SUBMIT
-                </a>
-            </div>
+            <p>
+                Request an extension for the return date of a borrowed library book.
+            </p>
 
         </div>
 
     </section>
 
 
+    <!-- Main Content -->
+    <main>
+
+        <div class="container page-layout">
 
 
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
+            <!-- Sidebar -->
+            <aside class="sidebar">
 
-    <footer>
+                <h3 class="sidebar-title">
+                    Borrowing
+                </h3>
 
-        <div class="footer-main">
+                <ul class="content-list">
 
-            <div class="container footer-grid">
+                    <li>
+                        <a href="borrow.html">
+                            Borrowing Policy
+                        </a>
+                    </li>
 
-                <!-- ABOUT -->
-                <div class="footer-column">
+                    <li>
+                        <a href="Renew.html" class="active">
+                            Book Renewal
+                        </a>
+                    </li>
 
-                    <h3>CUSTECH University Library</h3>
+                    <li>
+                        <a href="rules.html">
+                            Library Rules
+                        </a>
+                    </li>
 
-                    <p>
-                        Confluence University of Science and
-                        Technology, Osara, Kogi State.
-                    </p>
+                    <li>
+                        <a href="hours.html">
+                            Opening Hours
+                        </a>
+                    </li>
 
-                    <p>
-                        No 19, Okene-Lokoja Express Road,
-                        Osara, Kogi State.
-                    </p>
+                </ul>
 
-                    <p>
-                        Providing academic resources to support
-                        teaching, learning and research.
-                    </p>
-
-                </div>
-
-
-                <!-- QUICK LINKS -->
-                <div class="footer-column">
-
-                    <h3>Quick Links</h3>
-
-                    <ul>
-
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="about.html">About Library</a>
-                        </li>
-
-                        <li>
-                            <a href="past-questions.html">
-                                Past Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="book-request.html">
-                                Request a Book
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact Us
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
+            </aside>
 
 
-                <!-- LIBRARY SERVICES -->
-                <div class="footer-column">
+            <!-- Renewal Form -->
+            <section class="content-card">
 
-                    <h3>Library Services</h3>
+                <h2>
+                    Request for Extension of Borrowing Period
+                </h2>
 
-                    <ul>
-
-                        <li>
-                            <a href="borrow-request.html">
-                                Borrowing
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="e-library-hub.html">
-                                E-Library
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="newspaper.html">
-                                Newspapers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="careers.html">
-                                Careers
-                            </a>
-                        </li>
+                <p>
+                    Complete the form below if you need additional time to use
+                    a book that you have already borrowed from the University Library.
+                </p>
 
 
-                        <li>
-                            <a href="faqs.html">
-                                FAQs
-                            </a>
-                        </li>
+                <!-- Student Information -->
+                <h3>
+                    Student Information
+                </h3>
 
-                    </ul>
 
-                </div>
+                <form action="#" method="post">
+
+
+                    <div class="form-row">
+
+
+                        <!-- First Name -->
+                        <div class="form-group">
+
+                            <label for="first-name">
+                                First Name *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="first-name"
+                                name="first_name"
+                                class="form-control"
+                                placeholder="Enter your first name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Last Name -->
+                        <div class="form-group">
+
+                            <label for="last-name">
+                                Last Name *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="last-name"
+                                name="last_name"
+                                class="form-control"
+                                placeholder="Enter your last name"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <!-- Matric Number -->
+                        <div class="form-group">
+
+                            <label for="matric-number">
+                                Matriculation Number *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="matric-number"
+                                name="matric_number"
+                                class="form-control"
+                                placeholder="Enter your matriculation number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Level -->
+                        <div class="form-group">
+
+                            <label for="level">
+                                Level *
+                            </label>
+
+                            <select
+                                id="level"
+                                name="level"
+                                class="form-control"
+                                required
+                            >
+
+                                <option value="">
+                                    Select your level
+                                </option>
+
+                                <option value="100">
+                                    100 Level
+                                </option>
+
+                                <option value="200">
+                                    200 Level
+                                </option>
+
+                                <option value="300">
+                                    300 Level
+                                </option>
+
+                                <option value="400">
+                                    400 Level
+                                </option>
+
+                                <option value="500">
+                                    500 Level
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <!-- Faculty -->
+                        <div class="form-group">
+
+                            <label for="faculty">
+                                Faculty *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="faculty"
+                                name="faculty"
+                                class="form-control"
+                                placeholder="Enter your faculty"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Department -->
+                        <div class="form-group">
+
+                            <label for="department">
+                                Department *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="department"
+                                name="department"
+                                class="form-control"
+                                placeholder="Enter your department"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <!-- Phone -->
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number *
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                class="form-control"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Email -->
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address *
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Enter your email address"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Borrowed Book Information -->
+                    <h3>
+                        Borrowed Book Information
+                    </h3>
+
+
+                    <div class="form-group">
+
+                        <label for="book-title">
+                            Book Title *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="book-title"
+                            name="book_title"
+                            class="form-control"
+                            placeholder="Enter the title of the borrowed book"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-row">
+
+
+                        <!-- Author -->
+                        <div class="form-group">
+
+                            <label for="author">
+                                Author
+                            </label>
+
+                            <input
+                                type="text"
+                                id="author"
+                                name="author"
+                                class="form-control"
+                                placeholder="Enter author's name"
+                            >
+
+                        </div>
+
+
+                        <!-- Book ID -->
+                        <div class="form-group">
+
+                            <label for="book-id">
+                                Book ID / Accession Number
+                            </label>
+
+                            <input
+                                type="text"
+                                id="book-id"
+                                name="book_id"
+                                class="form-control"
+                                placeholder="Enter book ID or accession number"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Original Date -->
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="borrow-date">
+                                Original Borrowing Date *
+                            </label>
+
+                            <input
+                                type="date"
+                                id="borrow-date"
+                                name="borrow_date"
+                                class="form-control"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="current-due-date">
+                                Current Return Date *
+                            </label>
+
+                            <input
+                                type="date"
+                                id="current-due-date"
+                                name="current_due_date"
+                                class="form-control"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Requested Extension -->
+                    <h3>
+                        Extension Request
+                    </h3>
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="requested-date">
+                                Requested New Return Date *
+                            </label>
+
+                            <input
+                                type="date"
+                                id="requested-date"
+                                name="requested_return_date"
+                                class="form-control"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="extension-period">
+                                Requested Extension Period *
+                            </label>
+
+                            <select
+                                id="extension-period"
+                                name="extension_period"
+                                class="form-control"
+                                required
+                            >
+
+                                <option value="">
+                                    Select period
+                                </option>
+
+                                <option value="7">
+                                    7 Days
+                                </option>
+
+                                <option value="14">
+                                    14 Days
+                                </option>
+
+                                <option value="21">
+                                    21 Days
+                                </option>
+
+                                <option value="30">
+                                    30 Days
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Reason -->
+                    <div class="form-group">
+
+                        <label for="reason">
+                            Reason for Requesting Extension *
+                        </label>
+
+                        <textarea
+                            id="reason"
+                            name="reason"
+                            class="form-control"
+                            rows="5"
+                            placeholder="Explain why you need additional time to keep the book"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Additional Information -->
+                    <div class="form-group">
+
+                        <label for="additional-info">
+                            Additional Information
+                        </label>
+
+                        <textarea
+                            id="additional-info"
+                            name="additional_information"
+                            class="form-control"
+                            rows="4"
+                            placeholder="Enter any additional information if necessary"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Declaration -->
+                    <h3>
+                        Student Declaration
+                    </h3>
+
+
+                    <div class="checkbox-group">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="declaration"
+                                value="accepted"
+                                required
+                            >
+
+                            I confirm that the information provided is correct
+                            and that I am requesting an extension for the borrowed
+                            library book stated above.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                    <div class="form-submit">
+
+                        <button
+                            type="submit"
+                            class="btn"
+                        >
+                            Submit Renewal Request
+                        </button>
+
+                    </div>
+
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer-main">
+
+        <div class="container footer-grid">
+
+
+            <div class="footer-column">
+
+                <h3>
+                    CUSTECH University Library
+                </h3>
+
+                <p>
+                    Supporting teaching, learning, research and academic
+                    development through access to library resources and services.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="about.html">
+                            About Library
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="librarian.html">
+                            University Librarian
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="rules.html">
+                            Library Rules
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hours.html">
+                            Opening Hours
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Borrowing
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="borrow.html">
+                            Borrowing Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="borrow-application.html">
+                            Borrow Application
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Renew.html">
+                            Book Renewal
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    Confluence University of Science and Technology
+                </p>
+
+                <p>
+                    Osara, Kogi State, Nigeria
+                </p>
+
+                <p>
+                    Email: library@custech.edu.ng
+                </p>
 
             </div>
 
@@ -420,12 +915,15 @@
         <div class="footer-bottom">
 
             <p>
-                &copy; Designed by 2026 HTML SIWES GROUP 18 STUDENTS
+                &copy; 2026 CUSTECH University Library.
+                All Rights Reserved.
             </p>
 
         </div>
 
     </footer>
 
+
 </body>
+
 </html>
