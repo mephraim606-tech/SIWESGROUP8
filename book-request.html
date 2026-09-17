@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Makes the website responsive on phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
@@ -11,30 +10,18 @@
 
     <title>CUSTECH University Library Portal</title>
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =====================================================
-         TOP HEADER
-         Contains university information and quick links
-         ===================================================== -->
-
-
-    <!-- =====================================================
-         MAIN HEADER
-         ===================================================== -->
-
     <header class="main-header">
 
         <div class="container header-content">
 
-            <!-- Logo and university name -->
             <div class="logo-area">
 
-                <!-- Replace this placeholder with official logo later -->
+              
                 <div class="logo-placeholder">
                     <Img src="logo.png" width="200" height="70">
                 </div>
@@ -48,12 +35,6 @@
 
         </div>
 
-
-        <!-- =================================================
-             NAVIGATION BAR
-             CSS-only dropdown menu
-             ================================================= -->
-
         <nav class="main-nav">
 
             <div class="container">
@@ -64,7 +45,6 @@
                         <a href="index.html">Home</a>
                     </li>
 
-                    <!-- ABOUT -->
                     <li>
                         <a href="#">About ▾</a>
 
@@ -91,8 +71,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- BORROWING -->
                     <li>
                         <a href="#">Borrowing ▾</a>
 
@@ -111,8 +89,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- PAST QUESTIONS -->
                     <li>
                         <a href="#">Past Questions ▾</a>
 
@@ -139,8 +115,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- FACULTY CATALOG -->
                     <li>
                         <a href="#">E-Library ▾</a>
 
@@ -207,7 +181,6 @@
                         </ul>
                     </li>
 
-                    <!-- SERVICES -->
                     <li>
                         <a href="#">Services ▾</a>
 
@@ -251,7 +224,9 @@
 
                         </ul>
                     </li>
-
+                    <li>
+                        <a href="group.html">Group Members</a>
+                    </li>
                 </ul>
 
             </div>
@@ -261,46 +236,247 @@
     </header>
 
 
+<section class="feature-section">
 
-    <!-- =====================================================
-         WELCOME SECTION
-         ===================================================== -->
+    <div class="container">
 
-    <section class="feature-section">
+        <div class="content-card">
 
-        <div class="container">
+            <h2 class="section-heading">
+                REQUEST A BOOK
+            </h2>
 
-           
+            <p>
+                The CUSTECH University Library provides a book request service
+                for students, lecturers and researchers who need academic
+                materials that are not currently available in the library
+                collection.
+            </p>
 
+            <p>
+                If you cannot find a required book or other learning material
+                in the library, you can submit a request by providing the
+                necessary information about the resource. The library staff
+                will review the request and determine the appropriate action
+                based on availability and library resources.
+            </p>
 
-            <div class="content-card">
-            <div class="section-heading">
-
-                <h2>UNAVIALIABLE BOOKS REQUEST FORM</h2>
-
-            </div>
-                <p>
-                <Img src="O.png" width="900" height="300" class="homenew">
-                    ........
-                </p>
-
-                <p>
-                    ......
-                </p>
-
-
-            </div>
+            <p>
+                Please provide accurate information about the requested book,
+                including the title, author, edition and other relevant details.
+                This will help the library identify the required resource more
+                easily.
+            </p>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+
+<section class="feature-section">
+
+    <div class="container">
+
+        <h2 class="section-heading">
+            SUBMIT A BOOK REQUEST
+        </h2>
+
+        <div class="content-card">
+
+            <form action="#" method="post">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="fullname">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            class="form-control"
+                            placeholder="Enter your full name"
+                            required
+                        >
+
+                    </div>
 
 
+                    <div class="form-group">
+
+                        <label for="matric">
+                            Matriculation / Staff ID
+                        </label>
+
+                        <input
+                            type="text"
+                            id="matric"
+                            name="matric"
+                            class="form-control"
+                            placeholder="Enter your ID"
+                            required
+                        >
+
+                    </div>
+
+                </div>
 
 
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="Enter your email address"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="department">
+                            Department
+                        </label>
+
+                        <input
+                            type="text"
+                            id="department"
+                            name="department"
+                            class="form-control"
+                            placeholder="Enter your department"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="book-title">
+                            Book Title
+                        </label>
+
+                        <input
+                            type="text"
+                            id="book-title"
+                            name="book-title"
+                            class="form-control"
+                            placeholder="Enter the title of the book"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="author">
+                            Author
+                        </label>
+
+                        <input
+                            type="text"
+                            id="author"
+                            name="author"
+                            class="form-control"
+                            placeholder="Enter the author's name"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="edition">
+                            Edition / Year
+                        </label>
+
+                        <input
+                            type="text"
+                            id="edition"
+                            name="edition"
+                            class="form-control"
+                            placeholder="Example: 3rd Edition, 2024"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="course">
+                            Course / Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="course"
+                            name="course"
+                            class="form-control"
+                            placeholder="Enter course or subject"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="reason">
+                        Reason for Request
+                    </label>
+
+                    <textarea
+                        id="reason"
+                        name="reason"
+                        class="form-control"
+                        rows="5"
+                        placeholder="Briefly explain why you need this book"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="form-submit">
+
+                    <button type="submit" class="btn">
+                        Submit Book Request
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
 
     <footer>
 
@@ -330,8 +506,6 @@
 
                 </div>
 
-
-                <!-- QUICK LINKS -->
                 <div class="footer-column">
 
                     <h3>Quick Links</h3>
@@ -367,9 +541,7 @@
                     </ul>
 
                 </div>
-
-
-                <!-- LIBRARY SERVICES -->
+>
                 <div class="footer-column">
 
                     <h3>Library Services</h3>
@@ -377,7 +549,7 @@
                     <ul>
 
                         <li>
-                            <a href="borrow-request.html">
+                            <a href="borrow.html">
                                 Borrowing
                             </a>
                         </li>

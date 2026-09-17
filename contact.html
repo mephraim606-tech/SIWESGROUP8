@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Makes the website responsive on phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
@@ -17,24 +16,13 @@
 
 <body>
 
-    <!-- =====================================================
-         TOP HEADER
-         Contains university information and quick links
-         ===================================================== -->
-
-
-    <!-- =====================================================
-         MAIN HEADER
-         ===================================================== -->
 
     <header class="main-header">
 
         <div class="container header-content">
 
-            <!-- Logo and university name -->
             <div class="logo-area">
 
-                <!-- Replace this placeholder with official logo later -->
                 <div class="logo-placeholder">
                     <Img src="logo.png" width="200" height="70">
                 </div>
@@ -49,11 +37,6 @@
         </div>
 
 
-        <!-- =================================================
-             NAVIGATION BAR
-             CSS-only dropdown menu
-             ================================================= -->
-
         <nav class="main-nav">
 
             <div class="container">
@@ -64,7 +47,6 @@
                         <a href="index.html">Home</a>
                     </li>
 
-                    <!-- ABOUT -->
                     <li>
                         <a href="#">About ▾</a>
 
@@ -92,7 +74,6 @@
                     </li>
 
 
-                    <!-- BORROWING -->
                     <li>
                         <a href="#">Borrowing ▾</a>
 
@@ -112,7 +93,6 @@
                     </li>
 
 
-                    <!-- PAST QUESTIONS -->
                     <li>
                         <a href="#">Past Questions ▾</a>
 
@@ -139,8 +119,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- FACULTY CATALOG -->
                     <li>
                         <a href="#">E-Library ▾</a>
 
@@ -207,7 +185,6 @@
                         </ul>
                     </li>
 
-                    <!-- SERVICES -->
                     <li>
                         <a href="#">Services ▾</a>
 
@@ -251,6 +228,9 @@
 
                         </ul>
                     </li>
+                    <li>
+                        <a href="group.html">Group Members</a>
+                    </li>
 
                 </ul>
 
@@ -260,61 +240,161 @@
 
     </header>
 
-
-    <!-- =====================================================
-         WELCOME SECTION
-         ===================================================== -->
-
     <section class="feature-section">
+    <div class="container">
+        <div class="content-card">
+            <h2 class="section-heading">CONTACT US / FEEDBACK</h2>
 
-        <div class="container">
+            <p>
+                The CUSTECH University Library welcomes enquiries, suggestions,
+                complaints, and feedback from students, staff, researchers, and
+                other library users.
+            </p>
 
-           
+            <p>
+                Your feedback helps the library understand the needs of its
+                users and improve the quality of its resources, facilities, and
+                services.
+            </p>
 
+            <p>
+                For general enquiries, you may contact the library through the
+                official email address or visit the library during its opening
+                hours.
+            </p>
+        </div>
+    </div>
+</section>
 
-            <div class="content-card">
-            <div class="section-heading">
+<section class="feature-section">
+    <div class="container">
+        <h2 class="section-heading">SEND US A MESSAGE OR FEEDBACK</h2>
 
-                <h2>YOU CAN CONTACT US @</h2>
+        <div class="content-card">
+            <form action="#" method="post">
 
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        class="form-control"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="matric">Matriculation / Staff ID</label>
+                        <input
+                            type="text"
+                            id="matric"
+                            name="matric"
+                            class="form-control"
+                            placeholder="Enter your ID"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="Enter your email address"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control"
+                        placeholder="Enter the subject of your message"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback-type">Feedback Type</label>
+                    <select
+                        id="feedback-type"
+                        name="feedback_type"
+                        class="form-control"
+                        required
+                    >
+                        <option value="">Select feedback type</option>
+                        <option value="general-enquiry">General Enquiry</option>
+                        <option value="suggestion">Suggestion</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="service-feedback">Service Feedback</option>
+                        <option value="resource-request">Resource Request</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message / Feedback</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        class="form-control"
+                        rows="6"
+                        placeholder="Enter your message or feedback"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="feature-section">
+    <div class="container">
+        <h2 class="section-heading">LIBRARY CONTACT INFORMATION</h2>
+
+        <div class="contact-grid">
+
+            <div class="contact-box">
+                <h3>Library Email</h3>
+                <p>library@custech.edu.ng</p>
             </div>
-                <p>
-                    ........................
-                </p>
 
+            <div class="contact-box">
+                <h3>Library Address</h3>
+                <p>
+                    No 19, Okene-Lokoja Express Road,
+                    Osara, Kogi State.
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <h3>Library Services</h3>
+                <p>
+                    Borrowing, E-Library, Past Questions,
+                    Book Requests, and Research Support.
+                </p>
             </div>
 
         </div>
+    </div>
+</section>
 
-    </section>
-
-
-    <!-- =====================================================
-         QUICK FEATURES
-         ===================================================== -->
-
-    <section class="feature-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <h2>FEEDBACK FORM</h2>
-
-                <p>
-                    Leave a Feedback
-                </p>
-
-                <a href="contact.html" class="btn">
-                    Submit
-                </a>
-
-            </div>
-        </section>
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
+  
 
     <footer>
 
@@ -344,8 +424,6 @@
 
                 </div>
 
-
-                <!-- QUICK LINKS -->
                 <div class="footer-column">
 
                     <h3>Quick Links</h3>
@@ -382,8 +460,6 @@
 
                 </div>
 
-
-                <!-- LIBRARY SERVICES -->
                 <div class="footer-column">
 
                     <h3>Library Services</h3>
@@ -391,7 +467,7 @@
                     <ul>
 
                         <li>
-                            <a href="borrow-request.html">
+                            <a href="borrow.html">
                                 Borrowing
                             </a>
                         </li>

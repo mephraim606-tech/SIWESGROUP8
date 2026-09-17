@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Makes the website responsive on phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
@@ -11,30 +10,17 @@
 
     <title>CUSTECH University Library Portal</title>
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =====================================================
-         TOP HEADER
-         Contains university information and quick links
-         ===================================================== -->
-
-
-    <!-- =====================================================
-         MAIN HEADER
-         ===================================================== -->
-
     <header class="main-header">
 
         <div class="container header-content">
 
-            <!-- Logo and university name -->
             <div class="logo-area">
 
-                <!-- Replace this placeholder with official logo later -->
                 <div class="logo-placeholder">
                     <Img src="logo.png" width="200" height="70">
                 </div>
@@ -48,12 +34,6 @@
 
         </div>
 
-
-        <!-- =================================================
-             NAVIGATION BAR
-             CSS-only dropdown menu
-             ================================================= -->
-
         <nav class="main-nav">
 
             <div class="container">
@@ -64,7 +44,6 @@
                         <a href="index.html">Home</a>
                     </li>
 
-                    <!-- ABOUT -->
                     <li>
                         <a href="#">About ▾</a>
 
@@ -91,8 +70,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- BORROWING -->
                     <li>
                         <a href="#">Borrowing ▾</a>
 
@@ -111,8 +88,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- PAST QUESTIONS -->
                     <li>
                         <a href="#">Past Questions ▾</a>
 
@@ -139,8 +114,6 @@
                         </ul>
                     </li>
 
-
-                    <!-- FACULTY CATALOG -->
                     <li>
                         <a href="#">E-Library ▾</a>
 
@@ -207,7 +180,6 @@
                         </ul>
                     </li>
 
-                    <!-- SERVICES -->
                     <li>
                         <a href="#">Services ▾</a>
 
@@ -251,6 +223,9 @@
 
                         </ul>
                     </li>
+                    <li>
+                        <a href="group.html">Group Members</a>
+                    </li>
 
                 </ul>
 
@@ -260,70 +235,11 @@
 
     </header>
 
-
-    <!-- Page Banner -->
-    <section class="page-banner">
-
-        <div class="container">
-
-            <h2>
-                Book Renewal Request
-            </h2>
-
-            <p>
-                Request an extension for the return date of a borrowed library book.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Main Content -->
     <main>
 
         <div class="container page-layout">
 
 
-            <!-- Sidebar -->
-            <aside class="sidebar">
-
-                <h3 class="sidebar-title">
-                    Borrowing
-                </h3>
-
-                <ul class="content-list">
-
-                    <li>
-                        <a href="borrow.html">
-                            Borrowing Policy
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="Renew.html" class="active">
-                            Book Renewal
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="rules.html">
-                            Library Rules
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="hours.html">
-                            Opening Hours
-                        </a>
-                    </li>
-
-                </ul>
-
-            </aside>
-
-
-            <!-- Renewal Form -->
             <section class="content-card">
 
                 <h2>
@@ -335,8 +251,6 @@
                     a book that you have already borrowed from the University Library.
                 </p>
 
-
-                <!-- Student Information -->
                 <h3>
                     Student Information
                 </h3>
@@ -347,8 +261,6 @@
 
                     <div class="form-row">
 
-
-                        <!-- First Name -->
                         <div class="form-group">
 
                             <label for="first-name">
@@ -367,7 +279,6 @@
                         </div>
 
 
-                        <!-- Last Name -->
                         <div class="form-group">
 
                             <label for="last-name">
@@ -390,8 +301,6 @@
 
                     <div class="form-row">
 
-
-                        <!-- Matric Number -->
                         <div class="form-group">
 
                             <label for="matric-number">
@@ -409,8 +318,6 @@
 
                         </div>
 
-
-                        <!-- Level -->
                         <div class="form-group">
 
                             <label for="level">
@@ -458,7 +365,6 @@
                     <div class="form-row">
 
 
-                        <!-- Faculty -->
                         <div class="form-group">
 
                             <label for="faculty">
@@ -476,8 +382,6 @@
 
                         </div>
 
-
-                        <!-- Department -->
                         <div class="form-group">
 
                             <label for="department">
@@ -500,8 +404,6 @@
 
                     <div class="form-row">
 
-
-                        <!-- Phone -->
                         <div class="form-group">
 
                             <label for="phone">
@@ -519,8 +421,6 @@
 
                         </div>
 
-
-                        <!-- Email -->
                         <div class="form-group">
 
                             <label for="email">
@@ -540,8 +440,6 @@
 
                     </div>
 
-
-                    <!-- Borrowed Book Information -->
                     <h3>
                         Borrowed Book Information
                     </h3>
@@ -585,8 +483,6 @@
 
                         </div>
 
-
-                        <!-- Book ID -->
                         <div class="form-group">
 
                             <label for="book-id">
@@ -605,8 +501,6 @@
 
                     </div>
 
-
-                    <!-- Original Date -->
                     <div class="form-row">
 
 
@@ -645,8 +539,6 @@
 
                     </div>
 
-
-                    <!-- Requested Extension -->
                     <h3>
                         Extension Request
                     </h3>
@@ -715,8 +607,6 @@
 
                     </div>
 
-
-                    <!-- Reason -->
                     <div class="form-group">
 
                         <label for="reason">
@@ -734,8 +624,6 @@
 
                     </div>
 
-
-                    <!-- Additional Information -->
                     <div class="form-group">
 
                         <label for="additional-info">
@@ -752,8 +640,6 @@
 
                     </div>
 
-
-                    <!-- Declaration -->
                     <h3>
                         Student Declaration
                     </h3>
@@ -778,8 +664,6 @@
 
                     </div>
 
-
-                    <!-- Submit -->
                     <div class="form-submit">
 
                         <button
@@ -800,112 +684,239 @@
 
     </main>
 
+    <section class="feature-section">
 
-    <!-- Footer -->
-    <footer class="footer-main">
-
-        <div class="container footer-grid">
+        <div class="container">
 
 
-            <div class="footer-column">
+            <div class="section-heading">
 
-                <h3>
-                    CUSTECH University Library
-                </h3>
-
-                <p>
-                    Supporting teaching, learning, research and academic
-                    development through access to library resources and services.
-                </p>
+                <h2>
+                    QUICK ACCESS
+                </h2>
 
             </div>
 
 
-            <div class="footer-column">
+            <div class="card-grid">
 
-                <h3>
-                    Quick Links
-                </h3>
+                <div class="feature-card">
 
-                <ul>
+                    <div class="feature-icon">
+                        EX
+                    </div>
 
-                    <li>
-                        <a href="about.html">
-                            About Library
-                        </a>
-                    </li>
+                    <h3>
+                        Examination Papers
+                    </h3>
 
-                    <li>
-                        <a href="librarian.html">
-                            University Librarian
-                        </a>
-                    </li>
+                    <p>
+                        Browse available examination past questions.
+                    </p>
 
-                    <li>
-                        <a href="rules.html">
-                            Library Rules
-                        </a>
-                    </li>
+                    <a href="exam-pq.html" class="btn">
+                        Open Repository
+                    </a>
 
-                    <li>
-                        <a href="hours.html">
-                            Opening Hours
-                        </a>
-                    </li>
+                </div>
 
-                </ul>
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        CA
+                    </div>
+
+                    <h3>
+                        C.A. Test Papers
+                    </h3>
+
+                    <p>
+                        Browse available Continuous Assessment
+                        test papers.
+                    </p>
+
+                    <a href="ca-pq.html" class="btn">
+                        Open Repository
+                    </a>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        EL
+                    </div>
+
+                    <h3>
+                        E-Library
+                    </h3>
+
+                    <p>
+                        Access electronic library resources for
+                        additional study and research.
+                    </p>
+
+                    <a href="e-library-hub.html" class="btn">
+                        Visit E-Library
+                    </a>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        BR
+                    </div>
+
+                    <h3>
+                        Request a Book
+                    </h3>
+
+                    <p>
+                        Request a book that is currently unavailable
+                        in the library collection.
+                    </p>
+
+                    <a href="book-request.html" class="btn">
+                        Request a Book
+                    </a>
+
+                </div>
+
 
             </div>
 
+        </div>
 
-            <div class="footer-column">
+    </section>
 
-                <h3>
-                    Borrowing
-                </h3>
+    <footer>
 
-                <ul>
+        <div class="footer-main">
 
-                    <li>
-                        <a href="borrow.html">
-                            Borrowing Policy
-                        </a>
-                    </li>
+            <div class="container footer-grid">
 
-                    <li>
-                        <a href="borrow-application.html">
-                            Borrow Application
-                        </a>
-                    </li>
+                <div class="footer-column">
 
-                    <li>
-                        <a href="Renew.html">
-                            Book Renewal
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
+                    <h3>
+                        CUSTECH University Library
+                    </h3>
 
 
-            <div class="footer-column">
+                    <p>
+                        Confluence University of Science and
+                        Technology, Osara, Kogi State.
+                    </p>
 
-                <h3>
-                    Contact
-                </h3>
 
-                <p>
-                    Confluence University of Science and Technology
-                </p>
+                    <p>
+                        No 19, Okene-Lokoja Express Road,
+                        Osara, Kogi State.
+                    </p>
 
-                <p>
-                    Osara, Kogi State, Nigeria
-                </p>
 
-                <p>
-                    Email: library@custech.edu.ng
-                </p>
+                    <p>
+                        Providing academic resources to support
+                        teaching, learning and research.
+                    </p>
+
+                </div>
+
+                <div class="footer-column">
+
+                    <h3>
+                        Quick Links
+                    </h3>
+
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="about.html">
+                                About Library
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="past-questions.html">
+                                Past Questions
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="book-request.html">
+                                Request a Book
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        Library Services
+                    </h3>
+
+
+                    <ul>
+
+                        <li>
+                            <a href="borrow.html">
+                                Borrowing
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="e-library-hub.html">
+                                E-Library
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="newspaper.html">
+                                Newspapers
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="careers.html">
+                                Careers
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="faqs.html">
+                                FAQs
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
 
             </div>
 
@@ -915,8 +926,7 @@
         <div class="footer-bottom">
 
             <p>
-                &copy; 2026 CUSTECH University Library.
-                All Rights Reserved.
+                &copy; Designed by 2026 HTML SIWES GROUP 18 STUDENTS
             </p>
 
         </div>

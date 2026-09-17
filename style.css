@@ -1,10 +1,3 @@
-/* =========================================================
-   CUSTECH UNIVERSITY LIBRARY PORTAL
-   Main Stylesheet
-   Designed with HTML5 + CSS3 only
-   ========================================================= */
-
-/* ---------- CSS VARIABLES ---------- */
 
 :root {
     --custech-green: #c4542f;
@@ -23,7 +16,6 @@
     --transition: all 0.3s ease;
 }
 
-/* ---------- GENERAL RESET ---------- */
 
 * {
     margin: 0;
@@ -61,7 +53,7 @@ img {
     margin: auto;
 }
 
-/* ---------- TOP HEADER ---------- */
+
 
 .top-header {
     background: var(--custech-green-dark);
@@ -91,7 +83,6 @@ img {
     color: var(--custech-gold);
 }
 
-/* ---------- MAIN HEADER ---------- */
 
 .main-header {
     background: var(--white);
@@ -106,7 +97,6 @@ img {
     gap: 25px;
 }
 
-/* ---------- LOGO ---------- */
 
 .logo-area {
     display: flex;
@@ -140,7 +130,6 @@ img {
     color: var(--text-light);
 }
 
-/* ---------- NAVIGATION ---------- */
 
 .main-nav {
     background: var(--custech-green);
@@ -170,8 +159,6 @@ img {
     background: var(--custech-gold);
     color: var(--text-dark);
 }
-
-/* ---------- FIRST LEVEL DROPDOWN ---------- */
 
 .dropdown {
     position: absolute;
@@ -214,7 +201,6 @@ img {
     padding-left: 20px;
 }
 
-/* ---------- SECOND LEVEL DROPDOWN ---------- */
 
 .dropdown .dropdown {
     top: -3px;
@@ -227,7 +213,6 @@ img {
     transform: translateX(0);
 }
 
-/* ---------- HERO SECTION ---------- */
 
 .hero {
     background: var(--custech-blue);
@@ -275,7 +260,6 @@ img {
     color: var(--white);
 }
 
-/* ---------- PAGE BANNER ---------- */
 
 .page-banner {
     background: var(--custech-green);
@@ -292,7 +276,6 @@ img {
     color: #eeeeee;
 }
 
-/* ---------- INNER PAGE LAYOUT ---------- */
 
 .page-layout {
    
@@ -301,7 +284,6 @@ img {
     padding: 40px 0;
 }
 
-/* ---------- SIDEBAR ---------- */
 
 .sidebar {
     background: var(--white);
@@ -336,8 +318,6 @@ img {
     border-left: 4px solid var(--custech-gold);
 }
 
-/* ---------- CONTENT CARD ---------- */
-
 .content-card {
     background: var(--white);
     padding: 30px;
@@ -366,7 +346,6 @@ img {
     text-align: left;
 }
 
-/* ---------- HOME FEATURE GRID ---------- */
 
 .homenew {
     margin-left: 10%;
@@ -433,7 +412,6 @@ img {
     margin-bottom: 15px;
 }
 
-/* ---------- ANNOUNCEMENTS ---------- */
 
 .announcement {
     background: var(--gold-light);
@@ -447,7 +425,6 @@ img {
     margin-bottom: 5px;
 }
 
-/* ---------- TABLES ---------- */
 
 .table-wrapper {
     width: 100%;
@@ -481,7 +458,6 @@ img {
     background: var(--gold-light);
 }
 
-/* ---------- FORMS ---------- */
 
 .form-group {
     margin-bottom: 18px;
@@ -549,7 +525,6 @@ textarea.form-control {
     color: var(--text-dark);
 }
 
-/* ---------- INFORMATION BOX ---------- */
 
 .info-box {
     padding: 18px;
@@ -565,7 +540,6 @@ textarea.form-control {
     margin: 20px 0;
 }
 
-/* ---------- LISTS ---------- */
 
 .content-list {
     margin: 15px 0 20px 20px;
@@ -576,7 +550,6 @@ textarea.form-control {
     margin-bottom: 8px;
 }
 
-/* ---------- STATISTICS ---------- */
 
 .stats-grid {
     display: grid;
@@ -599,7 +572,6 @@ textarea.form-control {
     font-size: 28px;
 }
 
-/* ---------- CONTACT INFORMATION ---------- */
 
 .contact-grid {
     display: grid;
@@ -618,7 +590,6 @@ textarea.form-control {
     margin-bottom: 10px;
 }
 
-/* ---------- FOOTER ---------- */
 
 footer {
     background: var(--custech-green-dark);
@@ -670,7 +641,6 @@ footer {
     color: #eeeeee;
 }
 
-/* ---------- BREADCRUMB ---------- */
 
 .breadcrumb {
     padding: 12px 0;
@@ -686,7 +656,6 @@ footer {
     margin: 0 7px;
 }
 
-/* ---------- BADGES ---------- */
 
 .badge {
     display: inline-block;
@@ -702,7 +671,6 @@ footer {
     color: var(--text-dark);
 }
 
-/* ---------- RESPONSIVE DESIGN ---------- */
 
 @media (max-width: 900px) {
 
